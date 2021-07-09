@@ -85,7 +85,7 @@ def judege_notify(word):
 
 
 def send_line_notify(notification_message):
-    line_notify_token = '8MYwhc4uXBQ9ijZxAJFz2lWwcrz2OLE7cvXiLUlguKs'
+    line_notify_token = '????'
     line_notify_api = 'https://notify-api.line.me/api/notify'
     headers = {'Authorization': f'Bearer {line_notify_token}'}
     data = {'message': f'message: {notification_message}'}
